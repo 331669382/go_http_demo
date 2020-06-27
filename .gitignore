@@ -1,0 +1,10 @@
+#忽略idea工程文件
+*.iml
+.idea/
+*.swp
+
+#忽略生成的二进制可执行文件
+go_http_demo
+
+#忽略日志文件
+var/*
