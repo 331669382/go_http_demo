@@ -2,7 +2,7 @@ debug: true
 
 http:
   enabled: true
-  listen: 127.0.0.1:8080
+  listen: 9.134.102.136:8080
 
 mysql: root:q12345678@tcp(9.134.45.146:3306)/test?charset=utf8mb4&parseTime=True&loc=Local
 
