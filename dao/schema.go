@@ -10,3 +10,10 @@ type User struct {
 	Password string `json:"password"`
 	Role     uint   `json:"role"`
 }
+
+/*type Work struct{
+	ID	uint `gorm:"primary_key" json:"id"`
+	Username string `json:"username"`
+	Date time.Time 	`json:"Date"`
+	Leader string
+}*/
