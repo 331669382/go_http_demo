@@ -33,4 +33,9 @@ func Init(uri string, debug bool) {
 	db.LogMode(debug)
 
 	db.AutoMigrate(&User{})
+	db.AutoMigrate(&Work{})
+	db.AutoMigrate(&Rest{})
+	db.AutoMigrate(&Leaderlist{})
+	db.AutoMigrate(&Worklist{})
+
 }
